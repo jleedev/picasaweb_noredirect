@@ -1,0 +1,11 @@
+{
+    "background": {"scripts": ["background.js"]},
+    "content_security_policy": "default-src 'self' ",
+    "description": "Enforce noRedirect setting on Picasa Web Albums",
+    "name": "noRedirect for Picasa Web Albums",
+    "permissions": [
+        "cookies",
+        "https://picasaweb.google.com/"
+    ],
+    "version": "0.2"
+}
