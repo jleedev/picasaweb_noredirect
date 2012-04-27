@@ -5,7 +5,10 @@
     "name": "noRedirect for Picasa Web Albums",
     "permissions": [
         "cookies",
+        "webRequest",
+        "webRequestBlocking",
+        "http://picasaweb.google.com/",
         "https://picasaweb.google.com/"
     ],
-    "version": "0.2"
+    "version": "0.3"
 }
